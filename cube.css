@@ -1002,3 +1002,9 @@
   .container .column-face.bottom {
     transform: rotateX(-90deg) translateZ(6em);
   }
+
+  @media (width < 600px) {
+    .container{
+      margin: 2vh auto;
+    }
+  }
